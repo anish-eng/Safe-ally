@@ -3,11 +3,7 @@ import React from "react";
 import { lock } from "../stealth/stealth";
 
 export default function QuickExitButton() {
-  const applyExitState = () => {
-    // TODO: your cookie/localStorage lock/unlock logic
-    // localStorage.setItem("sh.lastExitAt", String(Date.now()));
-  };
-
+  
 
 
   const exitNow = () => {
