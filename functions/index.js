@@ -31,7 +31,7 @@ async function saveMessage(userId, message) {
   }
 
   const ref = await db.collection("userChats").add(data);
-  console.log("saved doc id:", ref.id);
+  
 }
 async function findRelevantMessages(userId, queryEmbedding, topK = 5) {
   const userMessagesRef = db.collection("userChats");

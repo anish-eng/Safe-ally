@@ -6,19 +6,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { getFunctions } from "firebase/functions";
 import { getAuth } from "firebase/auth";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCldYBUGiYWMPLOKyzV5Ja2aJYvhdiIwSg",
-  authDomain: "domesticabuse-12902.firebaseapp.com",
-  projectId: "domesticabuse-12902",
-  storageBucket: "domesticabuse-12902.firebasestorage.app",
-  messagingSenderId: "684322539364",
-  appId: "1:684322539364:web:cca065cb3d1d1a414c1c71",
-  measurementId: "G-XY9JDJLRHQ"
+  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT,
+  storageBucket: process.env.REACT_APP_FIREBASE_BUCKET,
+  messagingSenderId:process.env.REACT_APP_FIREBASE_MSG,
+  appId: process.env.REACT_APP_FIREBASE_APPID,
+  
 };
 
 // Initialize Firebase
