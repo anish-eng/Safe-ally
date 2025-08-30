@@ -44,7 +44,7 @@ const checkOnboardingAndRedirect = async (user) => {
   const emailLC = canonicalEmail(raw);
   console.log("emailLC",emailLC)
   if (!emailLC) { navigate("/dashboard/onboarding");
-    console.log("entered no email")
+    
      return; }
 
   const usersCol = collection(db, "users");
@@ -126,7 +126,7 @@ return (
             </div>
             <div>
               <h1 className="text-lg sm:text-2xl font-bold text-gray-900">
-                Login to SafeHaven
+                Login to Safe Ally
               </h1>
               <p className="text-sm text-gray-600">Enter your details or use Google to login</p>
             </div>
