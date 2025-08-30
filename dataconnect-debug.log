@@ -1,0 +1,16 @@
+I0827 17:07:16.740603   69997 load.go:37] Reloading schema and connectors...
+I0827 17:07:16.786393   69997 control.go:94] [/emulator/safehaven 634b] UpdateResources(): done
+Schema: sources: schema/schema.gql [2088B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] 
+I0827 17:07:16.814322   69997 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/Users/Sangeeta/Desktop/Desktop/projects_portfolio/Safehaven_fullstack_project/safehaven/dataconnect-generated/js/default-connector"
+I0827 17:07:16.832577   69997 collector.go:107] schema extensions wrote into "/Users/Sangeeta/Desktop/Desktop/projects_portfolio/Safehaven_fullstack_project/safehaven/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [73172B] 
+I0827 17:07:16.835488   69997 collector.go:107] connector "default" javascriptSdk wrote into "/Users/Sangeeta/Desktop/Desktop/projects_portfolio/Safehaven_fullstack_project/safehaven/dataconnect-generated/js/default-connector"
+Generated sources: react/package.json [468B] react/esm/index.esm.js [0B] react/README.md [5474B] index.cjs.js [147B] package.json [860B] react/index.d.ts [228B] react/esm/package.json [17B] react/index.cjs.js [0B] index.d.ts [248B] esm/index.esm.js [112B] esm/package.json [17B] README.md [2896B] 
+I0827 17:07:16.841946   69997 installsdk.go:55] Package @firebasegen/default-connector is already installed. Skipping installation
+I0827 17:07:16.842295   69997 load.go:115] Finished reloading
+I0827 17:07:16.846516   69997 dev.go:98] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0827 17:07:16.848364   69997 dev.go:98] Listening on address (HTTP + gRPC): [::1]:9399
+I0827 17:07:21.767754   69997 control.go:94] [/emulator/safehaven 0358] UpdateResources(): done
+Schema: sources: schema/schema.gql [2088B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] 
