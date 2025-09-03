@@ -99,3 +99,8 @@ jobs:
           channelId: live
           projectId: domesticabuse-12902
 
+
+
+      - name: Show .env.production (redacted)
+  run: awk -F= '{print $1"=[set]"}' .env.production
+
