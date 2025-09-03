@@ -22,31 +22,75 @@
 
 
 # ...
-name: Deploy to Firebase Hosting on Merge
+# name: Deploy to Firebase Hosting on Merge
 
+# on:
+#   push:
+#     branches:
+#       - main  # This triggers on push to the main branch
+
+# jobs:
+#   build_and_deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
+#           cache: npm
+
+#       - name: Install & Build (ignore lint + TS errors)
+#         run: |
+#           npm ci
+#           npx rimraf build
+#           npm run build --if-present # Use --if-present to be safe, but 'build' should exist
+
+#         env:
+#           CI: false
+#           DISABLE_ESLINT_PLUGIN: true
+#           TSC_COMPILE_ON_ERROR: true
+
+#       - uses: FirebaseExtended/action-hosting-deploy@v0
+#         with:
+#           repoToken: ${{ secrets.GITHUB_TOKEN }}
+#           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DOMESTICABUSE_12902 }}
+#           channelId: live
+#           projectId: domesticabuse-12902
+
+
+
+name: Deploy to Firebase Hosting on Merge
 on:
   push:
-    branches:
-      - main  # This triggers on push to the main branch
+    branches: [ main ]
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - name: Install & Build (ignore lint + TS errors)
+      # 👇 Add this block
+      - name: Create .env.production from GitHub Secrets
         run: |
-          npm ci
-          npm run build
-        env:
-          CI: false
-          DISABLE_ESLINT_PLUGIN: true
-          TSC_COMPILE_ON_ERROR: true
+          cat > .env.production <<'EOF'
+          REACT_APP_FB_API_KEY=${{ secrets.REACT_APP_FB_API_KEY }}
+          REACT_APP_FB_AUTH_DOMAIN=${{ secrets.REACT_APP_FB_AUTH_DOMAIN }}
+          REACT_APP_FB_PROJECT_ID=${{ secrets.REACT_APP_FB_PROJECT_ID }}
+          REACT_APP_FB_STORAGE_BUCKET=${{ secrets.REACT_APP_FB_STORAGE_BUCKET }}
+          REACT_APP_FB_MESSAGING_SENDER_ID=${{ secrets.REACT_APP_FB_MESSAGING_SENDER_ID }}
+          REACT_APP_FB_APP_ID=${{ secrets.REACT_APP_FB_APP_ID }}
+          REACT_APP_FB_MEASUREMENT_ID=${{ secrets.REACT_APP_FB_MEASUREMENT_ID }}
+          EOF
+
+      - run: npm ci
+      - run: CI=false npm run build
+      - run: ls -la build || true
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
