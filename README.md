@@ -64,7 +64,16 @@ It doesn't just provide static information, but provides functional features tha
 
 ## 🧰 Tech Stack
 
-React.js, Langchain, Google Firebase, Cloud functions
+<p>
+  <img alt="React" src="https://img.shields.io/badge/Frontend-React-0A66C2?style=for-the-badge" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/Language-TypeScript-0A66C2?style=for-the-badge" />
+  <img alt="Tailwind" src="https://img.shields.io/badge/UI-Tailwind_CSS-0A66C2?style=for-the-badge" />
+  <img alt="Firebase" src="https://img.shields.io/badge/Backend-Firebase-0A66C2?style=for-the-badge" />
+  <img alt="LangChain" src="https://img.shields.io/badge/AI-LangChain-0A66C2?style=for-the-badge" />
+  <img alt="Gemini" src="https://img.shields.io/badge/AI-Gemini_API-0A66C2?style=for-the-badge" />
+  <img alt="Groq" src="https://img.shields.io/badge/Vector-Groq_API-0A66C2?style=for-the-badge" />
+  <img alt="Firestore" src="https://img.shields.io/badge/Database-Cloud_Firestore-0A66C2?style=for-the-badge" />
+</p>
 
 ---
 
