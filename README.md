@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" alt="status" />
-  <img src="https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge" alt="license" />
-  <img src="https://img.shields.io/badge/Contributions-Welcome-ec4899?style=for-the-badge" alt="contributions" />
-</p>
+
 
 <h1 align="center">🛡️ Safe Ally</h1>
 <p align="center"><i>A comprehensive, secure solution to help victims of domestic abuse and violence.</i></p>
