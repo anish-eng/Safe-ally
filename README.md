@@ -1,6 +1,6 @@
 
 
-<h1 align="center">🛡️ Safe Ally</h1>
+<h1 align="center"> Safe Ally</h1>
 <p align="center"><i>A comprehensive, secure solution to help victims of domestic abuse and violence.</i></p>
 
 ---
