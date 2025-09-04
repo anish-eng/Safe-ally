@@ -108,14 +108,14 @@ It doesn't just provide static information, but provides functional features tha
 
 ---
 
-## 📄 License
-Licensed under **MIT**.
+
+
 
 ---
 
 ## 👤 Author
 **Anish Ajith Kamath**  
-[LinkedIn](https://www.linkedin.com/in/anishajithkamath) • [GitHub](https://github.com/anishkamath)  
+[LinkedIn](https://www.linkedin.com/in/anishajithkamath) • [GitHub]([https://github.com/anishkamath])  
 
 ---
 
