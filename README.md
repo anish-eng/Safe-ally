@@ -73,6 +73,7 @@ It doesn't just provide static information, but provides functional features tha
 
 ---
 
+
 ## 🎬 Demo
 [▶ Watch the demo](https://youtu.be/U9XCzbljT7o)
 
@@ -92,6 +93,11 @@ It doesn't just provide static information, but provides functional features tha
   <img src="assets/screenshot-3.gif" alt="Animated demo" width="900" />
 </p>
 
+---
+## 🖼️ How to use?
+
+- Navigate to https://domesticabuse-12902.web.app/ and triple click on the title "steve jobs" below the steve jobs card to "unlock" the application.
+- If you are a new user, register on the registration page and use the credentials to login , otherwise you can use login using google. 
 ---
 
 ## 🗺️ Future Enhancements
