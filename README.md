@@ -61,7 +61,7 @@ It doesn't just provide static information, but provides functional features tha
 ## 🧰 Tech Stack
 
 <p>
-  <img alt="React" src="https://img.shields.io/badge/Frontend-React-0A66C2?style=for-the-badge" />
+  <img alt="React.js" src="https://img.shields.io/badge/Frontend-React-0A66C2?style=for-the-badge" />
   <img alt="TypeScript" src="https://img.shields.io/badge/Language-TypeScript-0A66C2?style=for-the-badge" />
   <img alt="Tailwind" src="https://img.shields.io/badge/UI-Tailwind_CSS-0A66C2?style=for-the-badge" />
   <img alt="Firebase" src="https://img.shields.io/badge/Backend-Firebase-0A66C2?style=for-the-badge" />
