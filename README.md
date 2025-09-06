@@ -117,7 +117,7 @@ It doesn't just provide static information, but provides functional features tha
 
 ## 👤 Author
 **Anish Ajith Kamath**  
-[LinkedIn](www.linkedin.com/in/anish-ajith-kamath-9a5459326) • [GitHub]([https://github.com/anish-eng])  
+[LinkedIn](https://www.linkedin.com/in/anish-ajith-kamath-9a5459326/) • [GitHub]([https://github.com/anish-eng])  
 
 ---
 
