@@ -31,7 +31,7 @@ const Register = () => {
     const password = e.target.elements[2].value;
     // done in order to get actual form value
     const location=e.target.elements.namedItem('location').value
-    console.log("location value",e.target.elements)
+
     const auth = getAuth();
 
     try {
