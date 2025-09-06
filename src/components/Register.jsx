@@ -29,7 +29,7 @@ const Register = () => {
     const name=e.target.elements[0].value
     const email = e.target.elements[1].value;
     const password = e.target.elements[2].value;
-    const location=e.target.elements[3].value
+    const location=e.target.elements[4].value
     console.log("location value",e.target.elements)
     const auth = getAuth();
 
@@ -133,12 +133,7 @@ const Register = () => {
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             required
           />
-          {/* <input
-            type="password"
-            placeholder="Password(must be atleast 6 characters)"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-            required
-          /> */}
+       
           <div className="relative">
   <input
     type={showPwd ? "text" : "password"}
