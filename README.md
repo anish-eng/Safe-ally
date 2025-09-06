@@ -78,7 +78,7 @@ It doesn't just provide static information, but provides functional features tha
 ---
 
 ## 🎬 Demo
-[▶ Watch the demo](REPLACE_WITH_YOUTUBE_OR_VIMEO_LINK)
+[▶ Watch the demo](https://youtu.be/U9XCzbljT7o)
 
 ---
 
@@ -115,7 +115,7 @@ It doesn't just provide static information, but provides functional features tha
 
 ## 👤 Author
 **Anish Ajith Kamath**  
-[LinkedIn](https://www.linkedin.com/in/anishajithkamath) • [GitHub]([https://github.com/anishkamath])  
+[LinkedIn](www.linkedin.com/in/anish-ajith-kamath-9a5459326) • [GitHub]([https://github.com/anish-eng])  
 
 ---
 
