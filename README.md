@@ -22,11 +22,7 @@ It doesn't just provide static information, but provides functional features tha
 
 ## 🎛️ Features
 
-<p>
-  <img alt="Privacy-first" src="https://img.shields.io/badge/Privacy-First-f59e0b?style=for-the-badge" />
-  <img alt="Empathy" src="https://img.shields.io/badge/Empathetic_AI-22c55e?style=for-the-badge" />
-  <img alt="Security" src="https://img.shields.io/badge/Secure_Storage-6366f1?style=for-the-badge" />
-</p>
+
 
 - 🕵️ **Stealth Unlock**  
   - On load, the app shows a disguised “dummy” screen.  
