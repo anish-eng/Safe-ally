@@ -29,7 +29,8 @@ const Register = () => {
     const name=e.target.elements[0].value
     const email = e.target.elements[1].value;
     const password = e.target.elements[2].value;
-    const location=e.target.elements[4].value
+    // done in order to get actual form value
+    const location=e.target.elements.namedItem('location').value
     console.log("location value",e.target.elements)
     const auth = getAuth();
 
@@ -153,6 +154,7 @@ const Register = () => {
 
           <input
             type="text"
+            name="location"
             placeholder="Location (optional)"
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200"
           />
