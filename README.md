@@ -60,16 +60,13 @@ It doesn't just provide static information, but provides functional features tha
 
 ## 🧰 Tech Stack
 
-<p>
-  <img alt="React.js" src="https://img.shields.io/badge/Frontend-React-0A66C2?style=for-the-badge" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/Language-TypeScript-0A66C2?style=for-the-badge" />
-  <img alt="Tailwind" src="https://img.shields.io/badge/UI-Tailwind_CSS-0A66C2?style=for-the-badge" />
-  <img alt="Firebase" src="https://img.shields.io/badge/Backend-Firebase-0A66C2?style=for-the-badge" />
-  <img alt="LangChain" src="https://img.shields.io/badge/AI-LangChain-0A66C2?style=for-the-badge" />
-  <img alt="Gemini" src="https://img.shields.io/badge/AI-Gemini_API-0A66C2?style=for-the-badge" />
-  <img alt="Groq" src="https://img.shields.io/badge/Vector-Groq_API-0A66C2?style=for-the-badge" />
-  <img alt="Firestore" src="https://img.shields.io/badge/Database-Cloud_Firestore-0A66C2?style=for-the-badge" />
-</p>
+<ul>
+  <li><b>Frontend</b>- React.js, Tailwind Css, Lucide-React(Icons), React-Toastify  </li>
+   <li><b>Backend/Cloud</b>- Google Firebase(Auth,firestore database,Cloud functions, storage,hosting)  </li>
+  <li><b>AI/LLM</b>- Langchain, Firestore vector db, Google Generative AI API, Groq used via cloud functions </li>
+   <li><b>CI/CD pipelines</b>- Github Actions to update the build as soon as a new PR is made </li>
+  <li><b>Email functionality</b>- nodemailer via cloud functions </li>
+</ul>
 
 ---
 
