@@ -79,15 +79,15 @@ It doesn't just provide static information, but provides functional features tha
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="assets/screenshot-1.png" alt="Screenshot 1" width="900" />
+  <img src="/screenshot-1.png" alt="File Vault and chatbot" width="900" />
 </p>
 
 <p align="center">
-  <img src="assets/screenshot-2.png" alt="Screenshot 2" width="900" />
+  <img src="/screenshot-2.png" alt="Screenshot 2" width="900" />
 </p>
 
 <p align="center">
-  <img src="assets/screenshot-3.gif" alt="Animated demo" width="900" />
+  <img src="/screenshot-3.gif" alt="Animated demo" width="900" />
 </p>
 
 ---
