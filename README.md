@@ -79,7 +79,7 @@ It doesn't just provide static information, but provides functional features tha
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="/screenshot-1.png" alt="File Vault and chatbot" width="900" />
+  <img src="/public/EditEmergency.png" alt="File Vault and chatbot" width="900" />
 </p>
 
 <p align="center">
